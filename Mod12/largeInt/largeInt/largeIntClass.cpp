@@ -57,9 +57,9 @@ void largeInteger::reverse(int *x,int length){
         j++;
     }
     for (int k=0;k<this->length;k++){
-        cout<<q[k];
+        //cout<<q[k];
     }
-    cout<<endl;
+    //cout<<endl;
     p = q;
     q = NULL;
 }
@@ -78,11 +78,7 @@ void largeInteger::addArrays(largeInteger x){
     k = new int[biggest*10];
     
     for (int i=0;i<biggest;i++){
-        cout<<endl;
-        cout<<x.p[i];
-        cout<<endl;
-        cout<<p[i];
-        cout<<endl;
+       
         
         if (i>=this->length){
             k[i] = x.p[i] + excess;
@@ -102,13 +98,16 @@ void largeInteger::addArrays(largeInteger x){
             }
             
         }
-        cout<<k[i];
+        //cout<<k[i];
     }
     
     this->length = biggest;
     
     reverse(k,biggest);
     showArray();
+    
 }
+
+
 
 

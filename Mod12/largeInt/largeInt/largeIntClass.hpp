@@ -27,6 +27,8 @@ public:
     void reverse(int *x=NULL,int length=0);
     
     
+    
+    
 };
 
 #endif /* largeIntClass_hpp */

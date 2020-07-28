@@ -10,10 +10,12 @@
 #include "largeIntClass.hpp"
 
 int main() {
-    largeInteger li("3205");
-    largeInteger nli("255");
+    largeInteger li("32099999999993939393939393");
+    largeInteger nli("25555503039389387372372");
     
     li.addArrays(nli);
+    
+    
     
     return 0;
 }
